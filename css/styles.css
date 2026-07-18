@@ -38,6 +38,16 @@ body{
 
     line-height:1.6;
 
+    padding-top: 80px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 90px;
 }
 
 /* NAVBAR */
@@ -157,5 +167,40 @@ body{
 }
 
 /* PROJECTS */
+
+.project-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.project-image{
+
+    height: 230px;
+
+    object-fit: cover;
+
+    cursor: pointer;
+
+    transition: .35s;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+
+    width: 12%;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+
+    background-color: rgba(0,0,0,.55);
+
+    border-radius: 50%;
+
+    padding: 18px;
+
+}
 
 /* FOOTER */
