@@ -116,6 +116,46 @@ body{
 
 /* SKILLS */
 
+#skills {
+    background-color: #ffffff;
+}
+
+#skills .card {
+    border-radius: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+#skills .card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.skill-badge{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:8px 14px;
+
+    background:#EEF4FF;
+
+    border-radius:50px;
+
+    font-weight:500;
+
+}
+
+.skill-badge i{
+
+    font-size:1.2rem;
+
+}
+
 /* PROJECTS */
 
 /* FOOTER */
