@@ -1,0 +1,121 @@
+/* VARIABLES */
+
+:root{
+
+    --primary-color:#2563EB;
+
+    --secondary-color:#0F172A;
+
+    --background-color:#F8FAFC;
+
+    --text-color:#334155;
+
+    --white:#FFFFFF;
+
+}
+
+/* RESET */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* ESTILOS GLOBALES */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--background-color);
+
+    color:var(--text-color);
+
+    line-height:1.6;
+
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    padding:1rem 0;
+
+}
+
+.navbar-brand{
+
+    color:var(--secondary-color);
+
+    font-size:1.5rem;
+
+}
+
+.nav-link{
+
+    color:var(--text-color);
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--primary-color);
+
+}
+
+/* HERO */
+
+#hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+#hero h1{
+
+    color:var(--secondary-color);
+
+}
+
+#hero h2{
+
+    font-weight:400;
+
+}
+
+#hero img{
+
+    max-width:350px;
+
+    border:6px solid white;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+    padding:.75rem 1.5rem;
+
+}
+
+/* ABOUT */
+
+/* SKILLS */
+
+/* PROJECTS */
+
+/* FOOTER */
